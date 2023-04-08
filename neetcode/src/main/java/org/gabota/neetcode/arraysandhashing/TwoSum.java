@@ -3,7 +3,7 @@ package org.gabota.neetcode.arraysandhashing;
 import java.util.HashMap;
 import java.util.Map;
 
-public class e03TwoSum {
+public class TwoSum {
     Map<Integer, Integer> m = new HashMap<>();
     public int[] twoSum(int[] nums, int target) {
         for (int i=0; i<nums.length; i++) {

@@ -1,6 +1,6 @@
 package org.gabota.neetcode.twopointers;
 
-public class e01ValidPalindrome {
+public class ValidPalindrome {
     public boolean isPalindrome(String s) {
         s = s.toLowerCase();
         // clean all non-letter chars
@@ -24,6 +24,6 @@ public class e01ValidPalindrome {
     }
 
     public static void main(String[] args) {
-        System.out.println(new e01ValidPalindrome().isPalindrome("0P"));
+        System.out.println(new ValidPalindrome().isPalindrome("0P"));
     }
 }

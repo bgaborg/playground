@@ -1,6 +1,6 @@
 package org.gabota.neetcode.stack;
 
-public class e03ImplementStackUsingQueues {
+public class ImplementStackUsingQueues {
     // https://leetcode.com/problems/implement-stack-using-queues/
 
     public static class MyStack {

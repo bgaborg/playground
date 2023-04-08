@@ -2,7 +2,7 @@ package org.gabota.neetcode.stack;
 
 import java.util.Stack;
 
-public class e02BaseballGame {
+public class BaseballGame {
     public int calPoints(String[] operations) {
         Stack<Integer> sstack = new Stack<>();
         for (String op : operations) {

@@ -3,7 +3,7 @@ package org.gabota.neetcode.arraysandhashing;
 import java.util.HashMap;
 import java.util.Map;
 
-public class e02ValidAnagram {
+public class ValidAnagram {
     public boolean isAnagram(String s, String t) {
         if (s.length() != t.length()) {
             return false;

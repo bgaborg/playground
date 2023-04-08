@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.Queue;
 
-public class e01InvertBinaryTree {
+public class InvertBinaryTree {
     public static class TreeNode {
         int val;
         TreeNode left;
@@ -51,7 +51,7 @@ public class e01InvertBinaryTree {
                 new TreeNode(7, new TreeNode(6), new TreeNode(9)));
         printTree(r);
 
-        e01InvertBinaryTree e = new e01InvertBinaryTree();
+        InvertBinaryTree e = new InvertBinaryTree();
         TreeNode invertTree = e.invertTree(r);
         printTree(invertTree);
     }

@@ -3,7 +3,7 @@ package org.gabota.neetcode.arraysandhashing;
 import java.util.HashSet;
 import java.util.Set;
 
-public class e01ContainsDuplicate {
+public class ContainsDuplicate {
     Set<Integer> values = new HashSet<>();
 
     public boolean containsDuplicate(int[] nums) {

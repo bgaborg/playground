@@ -1,6 +1,6 @@
 package org.gabota.neetcode.slidingwindow;
 
-public class e01BuyOrSellStock {
+public class BuyOrSellStock {
 
     public static int maxProfit(int[] prices) {
         int left = 0;

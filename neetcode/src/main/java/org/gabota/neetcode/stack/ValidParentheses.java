@@ -3,7 +3,7 @@ package org.gabota.neetcode.stack;
 import java.util.ArrayDeque;
 import java.util.Deque;
 
-public class e01ValidParentheses {
+public class ValidParentheses {
     Deque<Character> cL = new ArrayDeque<Character>();
 
     public boolean isValid(String s) {
